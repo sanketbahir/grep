@@ -34,6 +34,9 @@ grep "Doctor$" file name {it will return the  line which ends with the matching 
 grep -R -f txtfilename nameOfFolder/ {here -R -f file name with folder name and its search name in the whole folder}
 
 egrp "name1|name2|name3" filename {it will search all three name in one file}
+
 grep -q name file name {to get without  print echo $ = 0 means we have the name and echo $= 1  we did not get}
+
 grep -qs name file name {to supress error message }
+
 ls | grep nameoffile {it will  search  related file in folder}
